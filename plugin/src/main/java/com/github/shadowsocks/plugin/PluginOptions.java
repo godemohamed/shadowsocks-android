@@ -1,7 +1,5 @@
 package com.github.shadowsocks.plugin;
 
-import android.annotation.TargetApi;
-import android.os.Build;
 import android.text.TextUtils;
 
 import java.util.HashMap;
@@ -95,7 +93,6 @@ public final class PluginOptions extends HashMap<String, String> {
         return toString(true);
     }
 
-    @TargetApi(Build.VERSION_CODES.KITKAT)
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -105,7 +102,6 @@ public final class PluginOptions extends HashMap<String, String> {
         return Objects.equals(id, that.id) && super.equals(that);
     }
 
-    @TargetApi(Build.VERSION_CODES.KITKAT)
     @Override
     public int hashCode() {
         return Objects.hash(super.hashCode(), id);
