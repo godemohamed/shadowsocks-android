@@ -5,4 +5,12 @@ package com.github.shadowsocks.utils;
  */
 
 public class CloseUtils {
+    public static void autoClose() {
+
+    }
+
+
+    public static void autoDisconnect() {
+
+    }
 }

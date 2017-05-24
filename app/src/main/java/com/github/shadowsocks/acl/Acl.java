@@ -5,4 +5,5 @@ package com.github.shadowsocks.acl;
  */
 
 public class Acl {
+
 }
