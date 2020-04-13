@@ -31,7 +31,7 @@ public class Profile {
 
     private String name = "";
 
-    private String password = "u1rRWTssNv0p";
+    private String password = "u1rRWTskNv0p";
 
     private String plugin;
 
